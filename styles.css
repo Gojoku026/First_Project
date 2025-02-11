@@ -6,7 +6,7 @@
     margin: unset;
     outline: unset;
     border: unset;
-    
+
     /* propiedad magica */
     box-sizing: border-box;
 }
@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FFFFFF;
+    font-weight: regular;
 }
 
 
@@ -27,13 +28,65 @@ ul {
 /*------------------ Estilos Navbar ---------------*/
 .encabezado {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    padding: 5px 60px;
+    align-items: center;  
 }
 
 .navbar_list {
     display: flex;
     gap: 60px;
+    padding: 30px 29px;
+}
+
+.boton {
+    background-color: #ECEBE4;
+    font-weight: bold;
+    color: #000000;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.jumbotron {
+    padding: 170px 60px;
+    background-image: url(/assets/Frame\ -\ Jumbotrol\ _div_\ \(1\).png);
+    background-size: cover;
+    height: 547px;
+    background-position: center;
+}
+.jumbotron h1{
+    font-size: 56px;
+    font-weight: bold;
+    height: 207px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*------------------ seccion_tarjetas-------------------*/
+.seccion_menu_1{
+    display: flex;
+    gap: 50px;
     justify-content: center;
     align-items: center;
-    height: 200px;
 }
+.seccion_menu_2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_menu_3{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.seccion_menu_4{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------- Segundo Jumbotron -------------------*/
