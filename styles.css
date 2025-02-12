@@ -1,4 +1,4 @@
-/* seteo de estilos */
+/* -------------------- seteo de estilos ---------------- */
 
 * {
     /* propiedades de espaciado */
@@ -15,7 +15,7 @@ body {
     color: #000000;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFFFFF;
+    background-color: #DADDD8;
     font-weight: regular;
 }
 
@@ -63,30 +63,140 @@ ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/*------------------ seccion_tarjetas-------------------*/
+/*------------------ seccion_Menus-------------------*/
+h2{
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 .seccion_menu_1{
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: center;
 }
 .seccion_menu_2{
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 6%;
 }
 .seccion_menu_3{
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: center;
 }
 .seccion_menu_4{
     display: flex;
     gap: 50px;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 100px;
 }
 
+/*----------------- Tarjetas ------------------*/
+.seccion_menu_1 li {
+    flex-basis: 244px;
+    text-align: center;
+    border: solid 2px #AD9185;
+    background-color: #FFF9F1;
+}
+.seccion_menu_1 button {
+    background-color: #BDADA6;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    border-radius: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seccion_menu_1 li img {
+    width: 100%;
+}
+.seccion_menu_2 li {
+    flex-basis: 244px;
+    text-align: center;
+    border: solid 2px #AD9185;
+    background-color: #FFF9F1;
+}
+.seccion_menu_2 button {
+    background-color: #BDADA6;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    border-radius: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seccion_menu_2 li img {
+    width: 100%;
+}
+.seccion_menu_3 li {
+    flex-basis: 244px;
+    border: solid 2px #AD9185;
+    background-color: #FFF9F1;
+}
+.seccion_menu_3 button {
+    background-color: #BDADA6;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    border-radius: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seccion_menu_3 li img {
+    width: 100%;
+}
+.seccion_menu_4 li {
+    flex-basis: 244px;
+    text-align: center;
+    border: solid 2px #AD9185;
+    background-color: #FFF9F1;
+}
+.seccion_menu_4 button {
+    background-color: #BDADA6;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    border-radius: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seccion_menu_4 li img {
+    width: 100%;
+}
 /*----------------- Segundo Jumbotron -------------------*/
+.segundo_jumbo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/Jumbotrol2.jpg);
+    background-size: cover;
+    height: 547px;
+    background-position: center;
+    padding: 25px 120px;
+}
+
+.segundo_jumbo h4{
+    font-size: 56px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*--------------------- footer --------------------------*/
+.footer{
+    background-color: #C08267;
+}
+.footer_explore{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: medium;
+    color: #FFFADA;
+}
+.encabezado_footer{
+    display: flex;
+    align-items: center;
+}
+.line{
+    height: 2px;
+    flex-grow: 1;
+    background-color: #FFFADA;
+}
