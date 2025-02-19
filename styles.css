@@ -14,7 +14,7 @@
 body {
     color: #000000;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     background-color: #DADDD8;
     font-weight: regular;
 }
@@ -132,6 +132,7 @@ h2{
 }
 .seccion_menu_3 li {
     flex-basis: 244px;
+    text-align: center;
     border: solid 2px #AD9185;
     background-color: #FFF9F1;
 }
@@ -183,6 +184,7 @@ h2{
 /*--------------------- footer --------------------------*/
 .footer{
     background-color: #C08267;
+    padding: 30px;
 }
 .footer_explore{
     display: flex;
